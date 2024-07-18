@@ -51,6 +51,35 @@ p {
     outline: none;
 }
 
+.btn-1 {
+    width: 150px;
+    padding: 0;
+    border: none;
+    transform-origin: center;
+    font-family: "Gochi Hand", cursive;
+    font-size: 15px;
+    cursor: pointer;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 rgb(0, 0, 0);
+    background-color: #f9d423;
+    transition: ease-out 0.2s;
+    
+  }
+  
+  .btn-1:hover{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #e9ec22;
+  }
+  
+  .btn-1:active {
+    transform: translateY(10px);
+    outline: 0;
+  }
+  
 .btn-2 {
     background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     z-index: 0;
